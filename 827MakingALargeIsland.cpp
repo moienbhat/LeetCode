@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// ---------------------------------
-// 1. DSU / Disjoint Set Class
-// ---------------------------------
+
 class DisjointSet {
 public:
     vector<int> parent, rank, size;
@@ -38,9 +36,7 @@ public:
     }
 };
 
-// ---------------------------------
-// 2. Solution Class
-// ---------------------------------
+
 class Solution {
 public:
     int largestIsland(vector<vector<int>>& grid) {
